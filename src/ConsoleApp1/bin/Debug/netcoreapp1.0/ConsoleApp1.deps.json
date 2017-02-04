@@ -1,0 +1,100 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v1.0",
+    "signature": "e94a1bdb9bfcb709c316288f0374910c655c0b08"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v1.0": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "BTCClassLibrary": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "NBitcoin/3.0.1.6": {
+        "dependencies": {
+          "Newtonsoft.Json": "9.0.1",
+          "System.Collections.NonGeneric": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard1.3/NBitcoin.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "dependencies": {
+          "System.Runtime.Serialization.Primitives": "4.1.1"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "QBitNinja.Client/1.0.3.35": {
+        "dependencies": {
+          "NBitcoin": "3.0.1.6"
+        },
+        "runtime": {
+          "lib/netstandard1.1/QBitNinja.Client.dll": {}
+        }
+      },
+      "System.Collections.NonGeneric/4.0.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
+        }
+      },
+      "System.Runtime.Serialization.Primitives/4.1.1": {
+        "runtime": {
+          "lib/netstandard1.3/System.Runtime.Serialization.Primitives.dll": {}
+        }
+      },
+      "BTCClassLibrary/1.0.0": {
+        "dependencies": {
+          "NBitcoin": "3.0.1.6",
+          "QBitNinja.Client": "1.0.3.35"
+        },
+        "runtime": {
+          "BTCClassLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NBitcoin/3.0.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u1EzGl339YCR41AGBdnhPjV0tny9V18FfY7UC8MRvJlPgxQayK36JHjemhZ1p+gV/kSn2MFcEon0EHy2j+C4WA=="
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw=="
+    },
+    "QBitNinja.Client/1.0.3.35": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wl8N+30ejNh9RiSPSDPEVBQwYeC0mT6e1ceE9jX7ImJnMMKSTawpLDzRLoH4JakZRSMmVNui12KPAwAyCNaBtw=="
+    },
+    "System.Collections.NonGeneric/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hMxFT2RhhlffyCdKLDXjx8WEC5JfCvNozAZxCablAuFRH74SCV4AgzE8yJCh/73bFnEoZgJ9MJmkjQ0dJmnKqA=="
+    },
+    "System.Runtime.Serialization.Primitives/4.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HZ6Du5QrTG8MNJbf4e4qMO3JRAkIboGT5Fk804uZtg3Gq516S7hAqTm2UZKUHa7/6HUGdVy3AqMQKbns06G/cg=="
+    },
+    "BTCClassLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

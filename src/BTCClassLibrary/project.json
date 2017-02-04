@@ -1,0 +1,16 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "NBitcoin": "3.0.1.6",
+    "NETStandard.Library": "1.6.0",
+    "QBitNinja.Client": "1.0.3.35",
+    "System.Runtime": "4.0.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
