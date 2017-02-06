@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using ASPNETCoreAngular2Demo.Middleware;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -18,6 +20,10 @@ namespace BTCMinerApp
             services.AddCors();
             services.AddMvcCore()
                 .AddJsonFormatters(options => options.ContractResolver = new CamelCasePropertyNamesContractResolver());
+
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                    .AddEntityFrameworkStores<ApplicationDbContext>()
+                    .AddDefaultTokenProviders();
         }
 
 
@@ -38,7 +44,7 @@ namespace BTCMinerApp
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
-
+         
             app.UseCors(config =>
                 config.AllowAnyHeader()
                     .AllowAnyMethod()
@@ -47,7 +53,12 @@ namespace BTCMinerApp
             app.UseDefaultFiles();
             app.UseStaticFiles();
 
+            //authroizatoin
+            app.UseMiddleware<AuthorizationMiddleware>();
+
             app.UseMvc();
+
+            
         }
     }
 }
