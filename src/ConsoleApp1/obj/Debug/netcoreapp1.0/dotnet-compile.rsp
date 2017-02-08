@@ -1,5 +1,5 @@
---temp-output:C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\ConsoleApp1\obj\Debug\netcoreapp1.0\
---out:C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\ConsoleApp1\bin\Debug\netcoreapp1.0\ConsoleApp1.dll
+--temp-output:C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\ConsoleApp1\obj\Debug\netcoreapp1.0\
+--out:C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\ConsoleApp1\bin\Debug\netcoreapp1.0\ConsoleApp1.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -91,6 +91,6 @@
 --reference:C:\Users\talda\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\talda\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\talda\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---reference:C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\BTCClassLibrary\bin\Debug\netstandard1.6\BTCClassLibrary.dll
-C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\ConsoleApp1\Program.cs
-C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\ConsoleApp1\Properties\AssemblyInfo.cs
+--reference:C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\BTCClassLibrary\bin\Debug\netstandard1.6\BTCClassLibrary.dll
+C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\ConsoleApp1\Program.cs
+C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\ConsoleApp1\Properties\AssemblyInfo.cs

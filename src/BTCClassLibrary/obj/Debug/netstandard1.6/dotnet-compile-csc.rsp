@@ -8,8 +8,8 @@
 -debug:full
 -nostdlib
 -nologo
-"C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\BTCClassLibrary\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
--out:"C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\BTCClassLibrary\bin\Debug\netstandard1.6\BTCClassLibrary.dll"
+"C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\BTCClassLibrary\obj\Debug\netstandard1.6\dotnet-compile.assemblyinfo.cs"
+-out:"C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\BTCClassLibrary\bin\Debug\netstandard1.6\BTCClassLibrary.dll"
 -r:"C:\Users\talda\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll"
 -r:"C:\Users\talda\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll"
 -r:"C:\Users\talda\.nuget\packages\NBitcoin\3.0.1.6\lib\netstandard1.3\NBitcoin.dll"
@@ -66,7 +66,7 @@
 -r:"C:\Users\talda\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\talda\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\talda\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
-"C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\BTCClassLibrary\btclibrary.cs"
-"C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\BTCClassLibrary\HashClass.cs"
-"C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\BTCClassLibrary\IHash.cs"
-"C:\Users\talda\Documents\Projects\BTC\BTCMiner\src\BTCClassLibrary\Properties\AssemblyInfo.cs"
+"C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\BTCClassLibrary\btclibrary.cs"
+"C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\BTCClassLibrary\HashClass.cs"
+"C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\BTCClassLibrary\IHash.cs"
+"C:\Users\talda\Documents\Projects\btcapp\btcappminer\src\BTCClassLibrary\Properties\AssemblyInfo.cs"
