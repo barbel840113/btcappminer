@@ -7,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Serialization;
+using ASPNETCoreAngular2Demo.Configurations;
 
 namespace BTCMinerApp
 {
@@ -39,6 +40,11 @@ namespace BTCMinerApp
         // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            //add Identity Server 4
+            services.AddIdentityServer()
+                .AddTemporarySigningCredential()
+                .AddInMemoryApiResources(Config.GetApiResources())
+                .AddInMemoryClients(Config.GetClients());
 
             //add the database of IdentityRole
             services.AddDbContext<ApplicationDbContext>(options =>
@@ -74,6 +80,7 @@ namespace BTCMinerApp
                app.UseDatabaseErrorPage();
                app.UseBrowserLink();*/
            }
+
             app.UseCors(config =>
                 config.AllowAnyHeader()
                     .AllowAnyMethod()
@@ -89,7 +96,8 @@ namespace BTCMinerApp
 
             app.UseMvc();
 
-            
+            //add identity server
+            app.UseIdentityServer(); 
         }
     }
 }
